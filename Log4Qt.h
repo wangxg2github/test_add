@@ -80,6 +80,7 @@ extern CMyLogger g_myLogger;
 #log4j.appender.FILE.layout=org.apache.log4j.PatternLayout
 #log4j.appender.FILE.layout.conversionPattern={%-d{yyyy-MM-dd HH:mm:ss}} [%p] >>> %m%n
 
+#ERROR > WARN > INFO > DEBUG
 log4j.rootLogger=DEBUG, CONSOLE
 log4j.appender.CONSOLE=org.apache.log4j.ConsoleAppender
 log4j.appender.CONSOLE.layout=org.apache.log4j.PatternLayout
